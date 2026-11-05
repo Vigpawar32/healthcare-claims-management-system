@@ -102,3 +102,31 @@ Author
 Vignesh Pawar
 
 GitHub: https://github.com/Vigpawar32
+
+
+1. Claim Status Analysis
+
+
+
+
+2. Insurance Payer Analysis
+
+
+
+
+3. Denial Analysis
+
+
+
+
+4. High-Value Claims
+
+
+
+
+5. Patient Claim History
+
+
+
+
+6. Monthly Claims Analysis
