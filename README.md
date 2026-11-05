@@ -93,6 +93,50 @@ Healthcare-Claims-Management-System/
 │
 ├── .gitignore
 └── README.md
+
+SQL Query Results
+
+The following screenshots demonstrate the execution of SQL queries and business analysis performed on the healthcare claims database.
+
+1. Claim Status Analysis
+
+Analyses the number and financial value of claims across different statuses.
+
+
+
+
+2. Insurance Payer Analysis
+
+Compares claim volumes and financial values across insurance payers.
+
+
+
+
+3. Denial Analysis
+
+Identifies denied claims and calculates their total and average amounts.
+
+
+
+
+4. High-Value Claims
+
+Identifies claims exceeding the specified amount threshold.
+
+
+
+
+5. Patient Claim History
+
+Analyses claim counts and total claim amounts for individual patients.
+
+
+
+
+6. Monthly Claims Analysis
+
+Examines monthly claim volumes and financial trends.
+
 Project Purpose
 
 This project was developed to strengthen practical SQL skills and demonstrate relational database design, data management, multi-table joins, and business analysis using a healthcare claims management scenario.
@@ -104,29 +148,3 @@ Vignesh Pawar
 GitHub: https://github.com/Vigpawar32
 
 
-1. Claim Status Analysis
-
-
-
-
-2. Insurance Payer Analysis
-
-
-
-
-3. Denial Analysis
-
-
-
-
-4. High-Value Claims
-
-
-
-
-5. Patient Claim History
-
-
-
-
-6. Monthly Claims Analysis
