@@ -68,6 +68,7 @@ Denial Analysis – Calculates denied claim counts and amounts.
 High-Value Claims – Identifies claims exceeding a specified financial threshold.
 Patient Claim History – Analyses claim activity and total claim amounts per patient.
 Monthly Claims Analysis – Examines monthly claim volumes and financial trends.
+
 Project Structure
 Healthcare-Claims-Management-System/
 │
