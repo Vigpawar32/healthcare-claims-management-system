@@ -158,24 +158,34 @@ Healthcare-Claims-Management-System/
 │   ├── analysis/
 │   │   └── 17_business_analysis.sql
 │   │
-│   ├── database/
-│   │   ├── 01_Create_database.sql
-│   │   ├── 02_create_tables.sql
-│   │   ├── 03_insert_data.sql
-│   │   ├── 04_create_providers.sql
-│   │   ├── 05_insert_providers.sql
-│   │   ├── 06_create_insurance_payers.sql
-│   │   ├── 07_insert_insurance_payers.sql
-│   │   ├── 08_create_claims.sql
-│   │   ├── 09_insert_claims.sql
-│   │   ├── 12_practice_inner_join.sql
-│   │   ├── 13_add_more_payers.sql
-│   │   ├── 14_add_more_patients.sql
-│   │   ├── 15_add_more_providers.sql
-│   │   └── 16_add_sample_claims.sql
-│   │
-│   └── screenshots/
+│   └── database/
+│       ├── screenshots/
+│       │   ├── 01_claim_status_analysis.png
+│       │   ├── 02_payer_analysis.png
+│       │   ├── 03_denial_analysis.png
+│       │   ├── 04_high_value_claims.png
+│       │   ├── 05_patient_claim_history.png
+│       │   └── 06_monthly_claims_analysis.png
+│       │
+│       ├── 01_Create_database.sql
+│       ├── 02_create_tables.sql
+│       ├── 03_insert_data.sql
+│       ├── 04_create_providers.sql
+│       ├── 05_insert_providers.sql
+│       ├── 06_create_insurance_payers.sql
+│       ├── 07_insert_insurance_payers.sql
+│       ├── 08_create_claims.sql
+│       ├── 09_insert_claims.sql
+│       ├── 12_practice_inner_join.sql
+│       ├── 13_add_more_payers.sql
+│       ├── 14_add_more_patients.sql
+│       ├── 15_add_more_providers.sql
+│       └── 16_add_sample_claims.sql
 │
+├── API/
+├── Docs/
+├── python/
+├── TESTS/
 ├── .gitignore
 └── README.md
 
