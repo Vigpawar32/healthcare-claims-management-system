@@ -150,8 +150,9 @@ Monthly Claims Analysis – Examines monthly claim volumes and financial trends.
 
 
 
-9. Project Structure
+## 9. Project Structure
 
+```text
 Healthcare-Claims-Management-System/
 │
 ├── database/
@@ -188,7 +189,7 @@ Healthcare-Claims-Management-System/
 ├── TESTS/
 ├── .gitignore
 └── README.md
-
+```
 10. Project Purpose
 
 This project was developed to strengthen practical SQL skills and demonstrate relational database design, data management, multi-table joins, and business analysis using a healthcare claims management scenario.
