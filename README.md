@@ -100,25 +100,20 @@ All records are fictional and created for educational purposes.
 
 6. SQL Concepts Demonstrated
 
-Database and table creation
-
-Primary Keys and Foreign Keys
-
-Data manipulation (INSERT, UPDATE, DELETE)
-
-INNER JOIN and LEFT JOIN
-
-WHERE and ORDER BY
-
-GROUP BY and HAVING
-
-Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
-
-CASE WHEN statements
-
-Common Table Expressions (CTEs)
-
-Data analysis and reporting
+- Window Functions (ROW_NUMBER, RANK, DENSE_RANK)
+- PARTITION BY and ORDER BY
+- Running Totals using SUM() OVER()
+- Analytical Functions using AVG() OVER()
+- Database and table creation
+- Primary Keys and Foreign Keys
+- Data manipulation (INSERT, UPDATE, DELETE)
+- INNER JOIN and LEFT JOIN
+- WHERE and ORDER BY
+- GROUP BY and HAVING
+- Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
+- CASE WHEN statements
+- Common Table Expressions (CTEs)
+- Data analysis and reporting
 
 7. Business Analysis
 
