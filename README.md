@@ -140,25 +140,29 @@ Monthly Claims Analysis – Examines monthly claim volumes and financial trends.
 
 The following screenshots demonstrate the execution of SQL queries and their results.
 
-Claim Status Analysis
-
-Analyses the number and financial value of claims across different statuses.
+1. Claim Status Analysis
 
 
 
-Insurance Payer Analysis
-
-Compares claim volumes and financial values across insurance payers.
+2. Insurance Payer Analysis
 
 
 
-Denial Analysis
-
-Identifies denied claims and calculates their total and average amounts.
+3. Denial Analysis
 
 
 
-Additional screenshots covering high-value claims, patient claim history, and monthly claims analysis are available in the database/database/screenshots/ directory.
+4. High-Value Claims
+
+
+
+5. Patient Claim History
+
+
+
+6. Monthly Claims Analysis
+
+
 
 9. Project Structure
 
