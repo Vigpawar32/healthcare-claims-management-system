@@ -116,8 +116,8 @@ All records are fictional and created for educational purposes.
 - Data analysis and reporting
 
 7. Business Analysis
-
-The project includes six business-focused SQL analyses:
+   
+The project includes seven business-focused SQL analyses:
 
 Claim Status Analysis – Analyses claim distribution by status and total claim amounts.
 
@@ -130,6 +130,8 @@ High-Value Claims – Identifies claims exceeding a specified financial threshol
 Patient Claim History – Analyses claim activity and total claim amounts per patient.
 
 Monthly Claims Analysis – Examines monthly claim volumes and financial trends.
+
+Advanced SQL Analysis – Uses window functions for payer rankings, claim rankings, running totals and payer average comparisons.
 
 ![Claim Status Analysis](database/database/screenshots/01_claim_status_analysis.png)
 
