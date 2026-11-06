@@ -190,7 +190,73 @@ Healthcare-Claims-Management-System/
 ├── .gitignore
 └── README.md
 ```
-10. Project Purpose
+10. How to Run This Project
+
+Follow these steps to set up and run the Healthcare Claims Management System.
+
+* Prerequisites
+
+- MySQL Server 8.0 or above
+- MySQL Workbench or Visual Studio Code with a MySQL connection
+
+### 1: Clone the Repository
+
+```bash
+git clone https://github.com/Vigpawar32/healthcare-claims-management-system.git
+```
+
+### 2: Create the Database
+
+Open MySQL and execute the SQL scripts from the `database/database/` folder in the following order:
+
+1. `01_Create_database.sql`
+2. `02_create_tables.sql`
+3. `03_insert_data.sql`
+4. `04_create_providers.sql`
+5. `05_insert_providers.sql`
+6. `06_create_insurance_payers.sql`
+7. `07_insert_insurance_payers.sql`
+8. `08_create_claims.sql`
+9. `09_insert_claims.sql`
+10. `13_add_more_payers.sql`
+11. `14_add_more_patients.sql`
+12. `15_add_more_providers.sql`
+13. `16_add_sample_claims.sql`
+
+**Note:** Execute these scripts only once on a fresh database to avoid duplicate records.
+
+### 3: Run Business Analysis
+
+After successfully creating the database and inserting the sample data, execute:
+
+`database/analysis/17_business_analysis.sql`
+
+This script contains SQL queries for analysing healthcare claims and generating business insights.
+
+### 4: Verify the Database
+
+Run the following query:
+
+```sql
+USE healthcare_claims;
+
+SELECT COUNT(*) AS total_patients FROM patients;
+SELECT COUNT(*) AS total_payers FROM insurance_payers;
+SELECT COUNT(*) AS total_providers FROM providers;
+SELECT COUNT(*) AS total_claims FROM claims;
+```
+
+Expected results:
+
+| Table | Records |
+|---|---:|
+| Patients | 20 |
+| Insurance Payers | 10 |
+| Providers | 8 |
+| Claims | 40 |
+
+
+11. Project Purpose
 
 This project was developed to strengthen practical SQL skills and demonstrate relational database design, data management, multi-table joins, and business analysis using a healthcare claims management scenario.
 
