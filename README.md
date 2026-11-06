@@ -136,31 +136,17 @@ Patient Claim History – Analyses claim activity and total claim amounts per pa
 
 Monthly Claims Analysis – Examines monthly claim volumes and financial trends.
 
-8. SQL Query Results
+![Claim Status Analysis](database/database/screenshots/01_claim_status_analysis.png)
 
-The following screenshots demonstrate the execution of SQL queries and their results.
+![Insurance Payer Analysis](database/database/screenshots/02_payer_analysis.png)
 
-1. Claim Status Analysis
+![Denial Analysis](database/database/screenshots/03_denial_analysis.png)
 
+![High Value Claims](database/database/screenshots/04_high_value_claims.png)
 
+![Patient Claim History](database/database/screenshots/05_patient_claim_history.png)
 
-2. Insurance Payer Analysis
-
-
-
-3. Denial Analysis
-
-
-
-4. High-Value Claims
-
-
-
-5. Patient Claim History
-
-
-
-6. Monthly Claims Analysis
+![Monthly Claims Analysis](database/database/screenshots/06_monthly_claims_analysis.png)
 
 
 
